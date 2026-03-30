@@ -22,7 +22,7 @@ Ce repo contient deux façons complémentaires d’explorer la même idée :
 
 ### Le notebook
 
-Le notebook (`manual.ipynb`) est la version pédagogique.  
+Le [notebook](1_manual.ipynb) est la version pédagogique.  
 Il explique d’abord l’intuition, puis introduit progressivement :
 
 - les données tabulaires
@@ -44,9 +44,9 @@ Ils chargent `dataset_vols.csv`, préparent les données, entraînent un modèle
 
 Fichiers :
 
-- [Python](script_py.py)
-- [R](script.R)
-- [Julia](script.jl)
+- [Python](1_script_py.py)
+- [R](1_script.R)
+- [Julia](1_script.jl)
 
 Ce qu’ils font :
 
@@ -67,15 +67,15 @@ Ce qu’ils font :
 Commandes typiques :
 
 ```bash
-python script_py.py --data dataset_vols.csv --strategy proper
+python 1_script.py --data dataset_vols.csv --strategy proper
 ````
 
 ```bash id="cexsae"
-Rscript script.R dataset_vols.csv proper
+Rscript 1_script.R dataset_vols.csv proper
 ```
 
 ```bash id="z0di76"
-julia script.jl dataset_vols.csv proper
+julia 1_script.jl dataset_vols.csv proper
 ```
 
 Stratégies disponibles :
@@ -110,12 +110,12 @@ C’est vrai pour le machine learning tabulaire, et cela prépare aussi une intu
 
 ```text id="uip831"
 bp1-linear-regression/
-├── dataset_vols.csv      # Dataset principal : 50 000 vols, 25 variables + cible
-├── manual.ipynb          # Notebook pédagogique pas à pas
 ├── README.md             # Présentation du projet
-├── script.jl             # Implémentation Julia
-├── script_py.py          # Implémentation Python
-└── script.R              # Implémentation R
+├── 1_manual.ipynb          # Notebook pédagogique pas à pas
+├── 1_script.jl           # Implémentation Julia
+├── 1_script.py           # Implémentation Python
+├── 1_script.R            # Implémentation R
+└── dataset_vols.csv      # Dataset principal : 50 000 vols, 25 variables + cible
 ```
 
 ### Description rapide des fichiers
@@ -124,16 +124,16 @@ bp1-linear-regression/
   Dataset synthétique utilisé dans le projet. Il contient 50 000 vols et plusieurs types de variables :
   numériques, binaires et catégorielles.
 
-* `manual.ipynb`
+* `1_manual.ipynb`
   Notebook pédagogique principal. C’est le meilleur point d’entrée pour les lecteurs non techniques.
 
-* `script_py.py`
+* `1_script.py`
   Implémentation professionnelle du workflow en Python.
 
-* `script.R`
+* `1_script.R`
   Implémentation professionnelle du workflow en R.
 
-* `script.jl`
+* `1_script.jl`
   Implémentation professionnelle du workflow en Julia.
 
 * `README.md`
@@ -157,7 +157,7 @@ En parcourant ce dépôt, on comprend que :
 
 Si tu débutes :
 
-1. commence par `manual.ipynb`
+1. commence par `1_manual.ipynb`
 2. comprends l’intuition derrière les poids et l’agrégation
 3. explore l’exemple réaliste sur les retards de vols
 4. puis passe aux scripts pour voir une version plus orientée “production”

@@ -3,9 +3,9 @@
 # Régression linéaire professionnelle sur dataset_vols.csv
 #
 # Usage:
-#   Rscript script.R dataset_vols.csv proper
-#   Rscript script.R dataset_vols.csv minimal
-#   Rscript script.R dataset_vols.csv raw
+#   Rscript 1_script.R dataset_vols.csv proper
+#   Rscript 1_script.R dataset_vols.csv minimal
+#   Rscript 1_script.R dataset_vols.csv raw
 
 suppressPackageStartupMessages({
   library(readr)

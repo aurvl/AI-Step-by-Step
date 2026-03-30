@@ -2,9 +2,9 @@
 Régression linéaire sur dataset_vols.csv
 
 Usage:
-    python script.py --data dataset_vols.csv --strategy proper
-    python script.py --data dataset_vols.csv --strategy minimal
-    python script.py --data dataset_vols.csv --strategy raw
+    python 1_script.py --data dataset_vols.csv --strategy proper
+    python 1_script.py --data dataset_vols.csv --strategy minimal
+    python 1_script.py --data dataset_vols.csv --strategy raw
 """
 
 from __future__ import annotations

@@ -1,9 +1,9 @@
 # Régression linéaire professionnelle sur dataset_vols.csv
 #
 # Usage:
-#   julia script.jl dataset_vols.csv proper
-#   julia script.jl dataset_vols.csv minimal
-#   julia script.jl dataset_vols.csv raw
+#   julia 1_script.jl dataset_vols.csv proper
+#   julia 1_script.jl dataset_vols.csv minimal
+#   julia 1_script.jl dataset_vols.csv raw
 
 using CSV
 using DataFrames
