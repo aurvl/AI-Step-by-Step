@@ -1,0 +1,39 @@
+# Core Data Science (From Scratch)
+numpy==2.4.4
+pandas==3.0.1
+matplotlib==3.10.8
+seaborn==0.13.2
+ipywidgets==8.1.8
+scipy==1.17.1
+scikit-learn==1.8.0
+statsmodels==0.14.6
+
+# Deep Learning & Modern AI (Advanced)
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+transformers==5.4.0
+datasets==4.8.4
+accelerate==1.13.0
+diffusers==0.37.1
+
+# NLP & Computer Vision
+nltk==3.9.4
+spacy==3.8.14
+opencv-python==4.13.0.92
+pillow==12.1.1
+
+# Generative AI & Agents
+openai==2.30.0
+langchain==1.2.13
+langchain-community==0.4.1
+langchain-openai==1.1.12
+python-dotenv==1.2.2
+chromadb==1.5.5
+
+# Visualization & Utils
+plotly==6.6.0
+tqdm==4.67.3
+jupyter==1.1.1
+networkx==3.6.1
+yfinance==1.2.0
