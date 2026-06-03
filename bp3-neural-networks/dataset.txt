@@ -1,0 +1,27 @@
+# Dataset e-Commerce
+## Nature des variables
+
+Les features couvrent plusieurs dimensions :
+
+* **Transaction**
+  * montant (`transaction_amount`)
+  * valeur moyenne habituelle (`avg_order_value`)
+
+* **Historique utilisateur**
+  * ancienneté du compte (`account_age_days`)
+  * nombre de commandes passées (`user_past_orders`)
+
+* **Comportement de navigation**
+  * durée de session (`session_duration_sec`)
+  * nombre de pages vues (`pages_viewed`)
+  * score de vitesse de frappe (`typing_speed_score`)
+
+* **Confiance / identité**
+  * score de confiance du device (`device_trust_score`)
+  * réputation de l’email (`email_reputation_score`)
+
+* **Risque technique**
+  * score de risque IP (`ip_risk_score`)
+  * distance géographique (`geo_distance_km`)
+  * tentatives de paiement échouées (`failed_payment_attempts`)
+  * temps depuis la dernière commande (`time_since_last_order_hours`)
